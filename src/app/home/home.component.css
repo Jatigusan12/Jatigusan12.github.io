@@ -1,0 +1,20 @@
+.info {
+    position: fixed;
+    color: black;
+    font-family: "Helvetica Neue",sans-serif;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: #404040;
+    width: 75%;
+    height: 100px;
+}
+
+.card-body{
+    align-self: center;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+<!--  -->
+<body>
+    <div class="wrapper">
+        <header>
+        <nav>
+            <div class="logo">
+                <ul>
+                    <li><a [routerLink]="['/Home']" routerLinkActive="router-link-active">Jhon Adrian Tigusan</a> </li>
+                </ul>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a [routerLink]="['/Home']" routerLinkActive="router-link-active">Home</a></li>
+                    <li><a [routerLink]="['/Profile']" routerLinkActive="router-link-active">Profile</a></li>
+                    <li><a [routerLink]="['/Skills']" routerLinkActive="router-link-active" >Skills</a></li>
+                    <li><a [routerLink]="['/Contacts']" routerLinkActive="router-link-active">Contacts</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+    </div>
+</body>
+<router-outlet></router-outlet>
