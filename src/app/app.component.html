@@ -1,23 +1,23 @@
-<!--  -->
 <body>
-    <div class="wrapper">
-        <header>
-        <nav>
-            <div class="logo">
-                <ul>
-                    <li><a [routerLink]="['/Home']" routerLinkActive="router-link-active">Jhon Adrian Tigusan</a> </li>
-                </ul>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a [routerLink]="['/Home']" routerLinkActive="router-link-active">Home</a></li>
-                    <li><a [routerLink]="['/Profile']" routerLinkActive="router-link-active">Profile</a></li>
-                    <li><a [routerLink]="['/Skills']" routerLinkActive="router-link-active" >Skills</a></li>
-                    <li><a [routerLink]="['/Contacts']" routerLinkActive="router-link-active">Contacts</a></li>
-                </ul>
-            </div>
-            </nav>
-        </header>
+    <nav>
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">
+            <a [routerLink]="['/Home']">JAT</a>
+        </label>
+        <ul>
+            <li><a [routerLink]="['/Home']">HOME</a></li>
+            <li><a [routerLink]="['/Profile']">ABOUT ME</a></li>
+            <li><a [routerLink]="['/Skills']">SKILLS</a></li>
+            <li><a [routerLink]="['/Contact']">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="components">
+        <router-outlet></router-outlet>
     </div>
+    
+
+    <!-- <app-profile></app-profile> -->
 </body>
-<router-outlet></router-outlet>

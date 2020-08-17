@@ -1,34 +1,26 @@
-.card-container{
-    position: fixed;
-    top: 20;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    height: 500px;
-    width: 90%;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: #404040;
+.card{
+    position: relative;
+    margin: 0;
+    top: 20px;
+    height: 100%;
+    border: none;
 }
+
 
 .left-container{
-    position: absolute;
-    top: 0;
-    bottom: 0px;
-    right: 600px;
-    left: 0;
-    margin: auto;
-    background-color:black;
-    height: 450px;
-    width: 450px;
+    width: auto;
+    background-color: transparent;
+    border: none;
+    border-right: solid;
+    border-color: black;
+}
+.right-container{
+    background: transparent;
+}
+img{
+    border-radius: 50%;
 }
 
-.card-image{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
+.info{
+    text-align: center;
 }
